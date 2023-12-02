@@ -31,5 +31,3 @@ for player in player_ids:
     df = pd.concat([df, career_df], axis=0)
 
     print(f"Player : {full_name} has been processed!")
-
-print(df)
